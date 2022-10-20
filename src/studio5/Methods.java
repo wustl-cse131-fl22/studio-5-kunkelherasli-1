@@ -70,18 +70,12 @@ public class Methods {
 		// TODO: Finish this method
 		for (int i=0; i< source.length(); i++) {
 			
-			
-			
 			if (source.charAt(i) == target) {
 				result += replacement;
 			} else {
 				result += source.charAt(i);
-			}
-			
-				
+			}				
 		}
-					
-		
 		return result;
 	}
 
